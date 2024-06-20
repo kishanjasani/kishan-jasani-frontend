@@ -1,0 +1,11 @@
+@mixin media-content-width {
+    @media (max-width: $content-width) {
+        @content;
+    }
+}
+
+@mixin media-mobile-width {
+    @media (max-width: $break-point-mobile) {
+        @content;
+    }
+}

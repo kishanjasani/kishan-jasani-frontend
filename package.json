@@ -4,10 +4,10 @@
 	"description": "",
 	"main": "index.js",
 	"scripts": {
-		"start": "sass assets/sass/style.scss:assets/css/style.css --source-map --watch",
-		"build": "sass assets/sass/style.scss:assets/css/style.css",
-		"lint:sass": "stylelint \"**/*.scss\"",
-		"lint:sass:fix": "stylelint \"**/*.scss\" --fix",
+		"start": "sass assets/scss/style.scss:assets/css/style.css --source-map --watch",
+		"build": "sass assets/scss/style.scss:assets/css/style.css",
+		"lint:scss": "stylelint \"**/*.scss\"",
+		"lint:scss:fix": "stylelint \"**/*.scss\" --fix",
 		"lint:js": "eslint \"**/*.js\"",
 		"lint:js:fix": "eslint \"**/*.js\" --fix",
 		"lint:js:format": "eslint --format compact \"**/*.js\""

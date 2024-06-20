@@ -1,0 +1,28 @@
+html {
+	font-size: $content-small;
+}
+
+body {
+	margin: 0;
+	font-family: $lato;
+	color: $primary-text;
+
+	* {
+		margin: 0;
+	}
+}
+
+main {
+	> *:not(.alignfull) {
+		max-width: $content-width;
+		margin: 0 auto;
+
+		@include media-content-width {
+			max-width: $content-max-width;
+		}
+
+		@include media-mobile-width {
+			max-width: $mobile-max-width;
+		}
+	}
+}

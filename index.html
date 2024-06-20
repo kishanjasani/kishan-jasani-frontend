@@ -5,8 +5,34 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Form Page</title>
+
+	<link rel="stylesheet" href="assets/css/style.css">
+	<script src="assets/script.js" type="text/javascript"></script>
 </head>
-<body>
-	<h1>Hello World</h1>
+<body class="">
+	<div class="container">
+		<header class="header flex flex--column flex--center flex--gap-normal">
+		<div class="header__background"></div>
+		<div class="header__intro flex flex--inline flex--column flex--center">
+			<div class="header__title">
+				<h1>Form Pages</h1>
+				<span></span>
+			</div>
+			<p class="header__description">Want to improve your form conversions? Form Pages by WPForms allows you to create completely custom “distraction-free” form landing pages to boost conversions (without writing any code).</p>
+			<div class="demo-buttons flex flex--justify-center flex--wrap flex--gap-normal">
+				<button type="button" class="demo-button button button-secondary border border--secondary border--radius-3">Try the Demo</button>
+				<button type="button" class="buy-button button button-primary border border--primary border--radius-3">Get WPForms Now</button>
+			</div>
+		</div>
+
+		<div class="header__video border--radius-6">
+			<div class="header__video-thumbnail flex flex--justify-center flex--center border--radius-6" id="video-thumbnail">
+				<img class="header__thumbnail-image border--radius-6" src="assets/images/form-pages.svg" />
+				<img id="play-button" src="assets/images/play-button.svg" />
+			</div>
+			<div class="header__video-iframe border--radius-6" id="header-video"></div>
+		</div>
+		</header>
+	</div>
 </body>
 </html>

@@ -1,0 +1,21 @@
+p {
+	font-family: $lato;
+	color: $secondary-text;
+	font-size: $content;
+	font-weight: $normal;
+	line-height: $content-line-height;
+}
+
+a {
+	color: $blue;
+	text-decoration-line: underline;
+}
+
+cite {
+	color: $credit-text;
+	font-family: $lato;
+	font-size: $credit;
+	font-style: normal;
+	font-weight: $normal;
+	line-height: normal;
+}

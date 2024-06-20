@@ -1,0 +1,45 @@
+button,
+.button {
+	padding: 20px 83px;
+	color: $secondary-text;
+	background-color: $white;
+	font-family: $lato;
+	font-weight: $bold;
+	font-size: $content-big;
+	line-height: $content-small-line-height;
+	cursor: pointer;
+
+	&.button-primary {
+		color: $white;
+		background: linear-gradient(0deg, #E27730, #E27730), linear-gradient(0deg, rgb(0 0 0 / 20%), rgb(0 0 0 / 20%));
+		padding: 20px 58px;
+	}
+}
+
+@include media-content-width {
+	button,
+	.button {
+		padding-left: 0;
+		padding-right: 0;
+		width: 100%;
+
+		&.button-primary {
+			padding-left: 0;
+			padding-right: 0;
+		}
+	}
+}
+
+@include media-mobile-width {
+	button,
+	.button {
+		padding-left: 0;
+		padding-right: 0;
+		width: 100%;
+
+		&.button-primary {
+			padding-left: 0;
+			padding-right: 0;
+		}
+	}
+}

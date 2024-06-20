@@ -1,0 +1,9 @@
+.demo-buttons {
+	gap: 3.125rem;
+}
+
+@include media-content-width {
+	.demo-buttons {
+		gap: 2rem;
+	}
+}
