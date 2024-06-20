@@ -1,0 +1,44 @@
+$hero-wrapper-padding: 6.25rem 0;
+$hero-row-gap: 3.125rem;
+
+.control-of-form {
+	padding: $hero-wrapper-padding;
+	background: $background;
+
+	&__row {
+		max-width: $content-width;
+
+		img {
+			width: calc( 50% - $hero-row-gap / 2 );
+			max-width: 100%;
+			box-shadow: 0 10px 30px 0 rgb(0 0 0 / 10%);
+		}
+	}
+
+	&__text {
+		width: calc( 50% - $hero-row-gap / 2 );
+		max-width: 100%;
+	}
+
+	@include media-content-width {
+		&__row {
+			align-items: center;
+			max-width: $content-max-width;
+
+			img {
+				width: 100%;
+			}
+		}
+
+		&__text {
+			width: 100%;
+		}
+	}
+
+	@include media-mobile-width {
+		&__row {
+			max-width: $mobile-max-width;
+		}
+	}
+
+}

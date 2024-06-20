@@ -478,4 +478,38 @@ main > *:not(.alignfull) {
   }
 }
 
+.control-of-form {
+  padding: 6.25rem 0;
+  background: #F8F8F8;
+}
+.control-of-form__row {
+  max-width: 60rem;
+}
+.control-of-form__row img {
+  width: calc(50% - 1.5625rem);
+  max-width: 100%;
+  box-shadow: 0 10px 30px 0 rgba(0, 0, 0, 0.1);
+}
+.control-of-form__text {
+  width: calc(50% - 1.5625rem);
+  max-width: 100%;
+}
+@media (max-width: 60rem) {
+  .control-of-form__row {
+    align-items: center;
+    max-width: 80%;
+  }
+  .control-of-form__row img {
+    width: 100%;
+  }
+  .control-of-form__text {
+    width: 100%;
+  }
+}
+@media (max-width: 450px) {
+  .control-of-form__row {
+    max-width: 85%;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
