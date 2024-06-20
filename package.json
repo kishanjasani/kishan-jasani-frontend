@@ -1,0 +1,23 @@
+{
+	"name": "kishan-jasani",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"start": "sass assets/sass/style.scss:assets/css/style.css --source-map --watch",
+		"build": "sass assets/sass/style.scss:assets/css/style.css",
+		"lint:sass": "stylelint \"**/*.scss\"",
+		"lint:sass:fix": "stylelint \"**/*.scss\" --fix",
+		"lint:js": "eslint \"**/*.js\"",
+		"lint:js:fix": "eslint \"**/*.js\" --fix",
+		"lint:js:format": "eslint --format compact \"**/*.js\""
+	},
+	"author": "Kishan Jasani",
+	"license": "ISC",
+	"devDependencies": {
+		"eslint": "^9.5.0",
+		"sass": "^1.77.6",
+		"stylelint": "^16.6.1",
+		"stylelint-config-standard-scss": "^13.1.0"
+	}
+}
