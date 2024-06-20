@@ -2,6 +2,10 @@
 
 This project involves building a simple landing page that closely adheres to the provided Figma design.
 
+## How to use it?
+
+To get started, simply download the folder. Once it's downloaded, open `index.html` in your web browser. That's all it takes to view the landing page!
+
 ## Development
 
 **Install**
