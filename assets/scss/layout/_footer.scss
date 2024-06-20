@@ -1,0 +1,35 @@
+.footer {
+	max-width: $content-width;
+	margin: 0 auto;
+
+	&__title {
+		text-align: center;
+		line-height: 36px;
+	}
+
+	&__bottom {
+		display: flex;
+		flex-flow: column wrap;
+		align-items: center;
+		gap: 0.938rem;
+	}
+
+	@include media-content-width {
+		max-width: $content-max-width;
+
+		.spacer {
+			margin-top: 4rem !important;
+		}
+
+		&__title,
+		&__bottom {
+			text-align: left;
+			align-items: flex-start;
+		}
+	}
+
+	@include media-mobile-width {
+		max-width: $mobile-max-width;
+	}
+
+}
