@@ -1,0 +1,19 @@
+$simple-screenshot-row-gap: 3.125rem;
+
+.simple-screenshot {
+	&__row {
+		max-width: $content-width;
+	}
+
+	.col {
+		box-shadow: 0 5px 25px 0 rgb(0 0 0 / 15%);
+		width: 100%;
+
+		img {
+			object-fit: cover;
+			height: 100%;
+			width: 100%;
+			display: block;
+		}
+	}
+}

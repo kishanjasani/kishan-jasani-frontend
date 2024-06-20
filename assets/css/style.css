@@ -512,4 +512,18 @@ main > *:not(.alignfull) {
   }
 }
 
+.simple-screenshot__row {
+  max-width: 60rem;
+}
+.simple-screenshot .col {
+  box-shadow: 0 5px 25px 0 rgba(0, 0, 0, 0.15);
+  width: 100%;
+}
+.simple-screenshot .col img {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+  display: block;
+}
+
 /*# sourceMappingURL=style.css.map */
