@@ -431,4 +431,51 @@ main > *:not(.alignfull) {
   }
 }
 
+.testimonials {
+  padding: 6.25rem 0;
+  gap: 6.25rem;
+  background: linear-gradient(180deg, #F8F8F8 0%, #FFF 100%);
+}
+.testimonials__row {
+  max-width: 60rem;
+}
+.testimonials__row .col {
+  max-width: 100%;
+}
+.testimonials__testimonial {
+  padding: 1.875rem;
+  gap: 0.938rem;
+  background: #FFF;
+  font-size: 16px;
+  line-height: 24px;
+}
+.testimonials__credit {
+  width: 100%;
+  gap: 0.938rem;
+}
+.testimonials__stars .star {
+  width: 15.999px;
+  height: 15.314px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url("../images/icons/star-solid.svg");
+}
+@media (max-width: 60rem) {
+  .testimonials__row {
+    flex-direction: column;
+    max-width: 80%;
+  }
+  .testimonials .demo-buttons {
+    max-width: 80%;
+  }
+}
+@media (max-width: 450px) {
+  .testimonials__row {
+    max-width: 85%;
+  }
+  .testimonials .demo-buttons {
+    max-width: 85%;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
