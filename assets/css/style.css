@@ -257,6 +257,10 @@ cite {
     text-align: center;
   }
 }
+div.spacer {
+  margin-top: 6.25rem !important;
+}
+
 @font-face {
   font-display: swap;
   font-family: Arvo;
