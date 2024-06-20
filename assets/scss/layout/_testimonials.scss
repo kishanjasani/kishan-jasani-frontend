@@ -8,6 +8,15 @@ $testimonial-gap: 0.938rem;
 	gap: $testimonials-gap;
 	background: linear-gradient(180deg, $background 0%, $white 100%);
 
+	p {
+		font-size: 1rem;
+	}
+
+
+	.demo-button {
+		background-color: $background;
+	}
+
 	&__row {
 		max-width: $content-width;
 

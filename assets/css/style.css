@@ -436,6 +436,12 @@ main > *:not(.alignfull) {
   gap: 6.25rem;
   background: linear-gradient(180deg, #F8F8F8 0%, #FFF 100%);
 }
+.testimonials p {
+  font-size: 1rem;
+}
+.testimonials .demo-button {
+  background-color: #F8F8F8;
+}
 .testimonials__row {
   max-width: 60rem;
 }
