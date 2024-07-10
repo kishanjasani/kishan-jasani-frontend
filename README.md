@@ -2,6 +2,8 @@
 
 This project involves building a simple landing page that closely adheres to the provided Figma design.
 
+Figma Design Link: https://www.figma.com/file/xMcM9KKzzdQY6wyA3VIdBh/WPForms---Developer-Build-Test?node-id=0%3A1
+
 ## How to use it?
 
 To get started, simply download the folder. Once it's downloaded, open `index.html` in your web browser. That's all it takes to view the landing page!
